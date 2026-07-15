@@ -17,8 +17,9 @@ def solve(s):
             i += 1
             if j == len(word):
                 return 'YES'
+            
         else:
-            i+=1
+            i+=1 
 
     return 'NO'
 
