@@ -1,21 +1,21 @@
 """
-Stripe Recolouring
+Missing Couple Registration ID
 
-Return minimum number of white cells
-to repaint.
+Every ID appears twice except one.
+
+Return the missing ID.
 """
 
 
-def solve(n, k, stripe):
+def solve(arr):
 
-    # Write your code here
-    pass
+    for id in arr:
+        if arr.count(id) < 2:
+            return id
 
 
 if __name__ == "__main__":
 
-    n = 5
-    k = 3
-    stripe = "BBWBW"
+    arr = [2, 5, 2, 8, 8]
 
-    print(solve(n, k, stripe))
+    print(solve(arr))

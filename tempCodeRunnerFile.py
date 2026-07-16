@@ -1,1 +1,1 @@
-here
+print(robbery(houses))
